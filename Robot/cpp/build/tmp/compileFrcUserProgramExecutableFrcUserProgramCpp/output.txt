@@ -1,0 +1,4 @@
+See file:///C:/Users/Jaden%20McElvey/Documents/GitHub/FRC-Shirt-Cannon/Robot/cpp/build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+
+Finished compileFrcUserProgramExecutableFrcUserProgramCpp, see full log file:///C:/Users/Jaden%20McElvey/Documents/GitHub/FRC-Shirt-Cannon/Robot/cpp/build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt.

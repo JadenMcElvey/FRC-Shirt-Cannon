@@ -1,0 +1,77 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build and deploy",
+            "command": "powershell",
+            "args": [
+                "cd",
+                "\"${cwd}/Robot/cpp\";",
+                "./gradlew build;",
+                "./gradlew deploy"
+            ],
+            "taskSelector": "-task ",
+            "showOutput": "always",
+            "tasks": [
+                {
+                    "taskName": "build",
+                    "showOutput": "always",
+                    "isBuildCommand": true
+                }
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "build",
+            "command": "powershell",
+            "args": [
+                "cd",
+                "\"${cwd}/Robot/cpp\";",
+                "./gradlew build"
+            ],
+            "taskSelector": "-task ",
+            "showOutput": "always",
+            "tasks": [
+                {
+                    "taskName": "build",
+                    "showOutput": "always",
+                    "isBuildCommand": true
+                }
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "deploy",
+            "command": "powershell",
+            "args": [
+                "cd",
+                "\"${cwd}/Robot/cpp\";",
+                "./gradlew deploy"
+            ],
+            "taskSelector": "-task ",
+            "showOutput": "always",
+            "tasks": [
+                {
+                    "taskName": "build",
+                    "showOutput": "always",
+                    "isBuildCommand": true
+                }
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}
