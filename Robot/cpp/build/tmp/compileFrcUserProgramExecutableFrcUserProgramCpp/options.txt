@@ -7,21 +7,21 @@ c++
 -I
 "C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\src\\include"
 -I
-"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\wpilibc-2018.2.2-headers.zip_2b481ef032541827aa05d34c722e7cda"
+"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\wpilibc-2018.4.1-headers.zip_8477567bc2cef26d871129801025b7ab"
 -I
-"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\hal-2018.2.2-headers.zip_eb4bfce635b238c6934d705223ab1444"
+"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\hal-2018.4.1-headers.zip_2069345ca7860fe97bbdd26a3555dddb"
 -I
-"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\wpiutil-cpp-3.0.0-headers.zip_71db4973bf73247f06ec3fdb86e1126b"
+"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\wpiutil-cpp-3.2.0-headers.zip_e38860479428272883648bd36a877d2e"
 -I
-"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\ntcore-cpp-4.0.0-headers.zip_517391151665b6a51f10f788c06ee62d"
+"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\ntcore-cpp-4.1.0-headers.zip_ef19fde995210b200dcbe98c6606b60f"
 -I
-"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\cscore-cpp-1.1.0-headers.zip_7179d2a404841338b55673d83c119071"
+"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\cscore-cpp-1.3.0-headers.zip_8f6bcb3fff9cb888441d0fc8b944fcdb"
 -I
 "C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\opencv-cpp-3.2.0-headers.zip_1b8591564854592a4aff6bd224b2b0a3"
 -I
-"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\ni-libraries-2018.2.2-headers.zip_6aedc4b55a982775a7b6e16df1020d5b"
+"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\ni-libraries-2018.4.1-headers.zip_55705e66b0e6e7d3459ef1e0f179830e"
 -I
-"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\CTRE-phoenix-cpp-5.2.1.1-headers.zip_ed51ae3396f2e2d306a9f6a233af2bce"
+"C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\CTRE-phoenix-cpp-5.2.2.0-headers.zip_7fb33952e1730cb5d6de9acdfb57516f"
 -I
 "C:\\Users\\Jaden McElvey\\Documents\\GitHub\\FRC-Shirt-Cannon\\Robot\\cpp\\build\\tmp\\expandedArchives\\navx-cpp-3.0.346-headers.zip_bdc8378de58d7490d517245a513e81b3"
 -I

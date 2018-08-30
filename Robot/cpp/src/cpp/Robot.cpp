@@ -15,6 +15,7 @@
 #include <SmartDashboard/SendableChooser.h>
 #include <SmartDashboard/SmartDashboard.h>
 #include <Talon.h>
+#include <PWMSpeedController.h>
 #include <Timer.h>
 #include <Relay.h>
 #include <Compressor.h>
@@ -28,6 +29,8 @@ public:
 
 	void RobotInit() {
 		compressor.Start();
+		f_leftMotor.SetInverted(true);
+		b_rightMotor.SetInverted(true);
 	}
 
 	void Autonomous() {
@@ -36,9 +39,9 @@ public:
 	void OperatorControl() override {
 		robotDrive.SetSafetyEnabled(true);
 		while (IsOperatorControl() && IsEnabled())
-			{
+		{
 			// Drive
-			robotDrive.DriveCartesian(controller.GetY(frc::GenericHID::kLeftHand), controller.GetX(frc::GenericHID::kRightHand), controller.GetX(frc::GenericHID::kLeftHand));
+			robotDrive.DriveCartesian(controller.GetY(frc::GenericHID::kRightHand), -controller.GetX(frc::GenericHID::kLeftHand), controller.GetX(frc::GenericHID::kRightHand));
 			// Fire
             bool n = frc::SmartDashboard::GetBoolean("Safety", false);
 			if ((controller.GetTriggerAxis(frc::GenericHID::kLeftHand)>.5) && n)
@@ -61,9 +64,9 @@ public:
 
 private:
 	// ROBOT DRIVE SYSTEM
-	frc::Talon f_leftMotor{0};
-	frc::Talon b_leftMotor{1};
-	frc::Talon f_rightMotor{2};
+	frc::Talon f_leftMotor{2};
+	frc::Talon b_leftMotor{0};
+	frc::Talon f_rightMotor{1};
 	frc::Talon b_rightMotor{3};
 
 	frc::MecanumDrive robotDrive{f_leftMotor, b_leftMotor, f_rightMotor, b_rightMotor};
